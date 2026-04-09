@@ -1,0 +1,66 @@
+<header class="site-header">
+  <div class="site-container site-header__inner">
+    <a
+      aria-label="Ahornevents Startseite"
+      class="site-brand"
+      href="/de/index.html"
+    >
+      <img
+        alt="Ahornevents Logo"
+        class="site-brand__logo"
+        src="/images/logo transparent.png"
+      />
+    </a>
+    <button
+      aria-expanded="false"
+      aria-label="Menü öffnen"
+      class="site-menu-toggle"
+      type="button"
+    >
+      <span></span><span></span><span></span>
+    </button>
+    <nav aria-label="Hauptnavigation" class="site-nav">
+      <a data-nav="home" href="/de/index.html">Start</a>
+      <div class="site-nav__item has-submenu" data-nav-parent="services">
+        <a
+          class="site-nav__link--parent"
+          data-nav="services"
+          href="/de/services.html"
+          >Services</a
+        >
+        <div class="site-submenu">
+          <a href="/de/services.html#bookings">Bookings</a>
+          <a href="/de/services.html#catering">Catering</a>
+          <a href="/de/services.html#organisation">Event Organisation</a>
+        </div>
+      </div>
+      <div class="site-nav__item has-submenu" data-nav-parent="events">
+        <a
+          class="site-nav__link--parent"
+          data-nav="events"
+          href="/de/events.html"
+          >Events</a
+        >
+        <div class="site-submenu">
+          <a href="/de/events.html#previous-events">Vergangene Events</a>
+          <a href="/de/events.html#news">News</a>
+        </div>
+      </div>
+      <a data-nav="artists" href="/de/artists.html">Artists</a>
+      <a data-nav="about" href="/de/about.html">Über uns</a>
+      <a data-nav="contact" href="/de/contact.html">Kontakt</a>
+      <div aria-label="Sprachauswahl" class="lang-switch">
+        <a data-lang="en" href="/en/index.html">
+          <span class="flag"
+            ><img alt="English" src="/images/flags/uk-flag.svg"
+          /></span>
+          EN
+        </a>
+        <a data-lang="de" href="/de/index.html">
+          <span aria-hidden="true" class="flag flag--at"></span>
+          DE
+        </a>
+      </div>
+    </nav>
+  </div>
+</header>

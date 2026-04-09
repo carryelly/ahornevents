@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Ahornevents | Language Redirect</title>
+    <meta name="robots" content="noindex" />
+    <link rel="icon" href="images/favicon.png" />
+
+    <!-- Language SEO -->
+    <link rel="alternate" hreflang="en" href="https://www.ahornevents.at/en/" />
+    <link rel="alternate" hreflang="de" href="https://www.ahornevents.at/de/" />
+    <link
+      rel="alternate"
+      hreflang="x-default"
+      href="https://www.ahornevents.at/"
+    />
+
+    <!-- Instant redirect script -->
+    <script>
+      (function () {
+        try {
+          // 1. Check saved preference
+          var saved = localStorage.getItem("preferred-language");
+
+          if (saved === "de") {
+            window.location.replace("/de/");
+            return;
+          }
+
+          if (saved === "en") {
+            window.location.replace("/en/");
+            return;
+          }
+
+          // 2. Detect browser language
+          var lang = (navigator.language || "en").toLowerCase();
+
+          if (lang.startsWith("de")) {
+            window.location.replace("/de/");
+          } else {
+            window.location.replace("/en/");
+          }
+        } catch (e) {
+          // fallback
+          window.location.replace("/en/");
+        }
+      })();
+    </script>
+
+    <!-- Fallback if JS disabled -->
+    <noscript>
+      <meta http-equiv="refresh" content="0; url=/en/" />
+    </noscript>
+
+    <style>
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background: #0a0a0a;
+        color: #fff;
+        font-family: sans-serif;
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <p>Redirecting…</p>
+  </body>
+</html>
