@@ -1,11 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.ahornevents.at/en/</loc></url>
-  <url><loc>https://www.ahornevents.at/de/</loc></url>
-  <url><loc>https://www.ahornevents.at/en/artists</loc></url>
-  <url><loc>https://www.ahornevents.at/de/kuenstler</loc></url>
-  <url><loc>https://www.ahornevents.at/en/services</loc></url>
-  <url><loc>https://www.ahornevents.at/de/leistungen</loc></url>
-  <url><loc>https://www.ahornevents.at/en/contact</loc></url>
-  <url><loc>https://www.ahornevents.at/de/kontakt</loc></url>
+<urlset 
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- HOME -->
+  <url>
+    <loc>https://www.ahornevents.at/en/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ahornevents.at/en/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.ahornevents.at/de/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.ahornevents.at/en/" />
+  </url>
+
+  <!-- ABOUT -->
+  <url>
+    <loc>https://www.ahornevents.at/en/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ahornevents.at/en/about.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.ahornevents.at/de/about.html" />
+  </url>
+
+  <!-- SERVICES -->
+  <url>
+    <loc>https://www.ahornevents.at/en/services.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ahornevents.at/en/services.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.ahornevents.at/de/services.html" />
+  </url>
+
+  <!-- EVENTS -->
+  <url>
+    <loc>https://www.ahornevents.at/en/events.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ahornevents.at/en/events.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.ahornevents.at/de/events.html" />
+  </url>
+
+  <!-- ARTISTS -->
+  <url>
+    <loc>https://www.ahornevents.at/en/artists.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ahornevents.at/en/artists.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.ahornevents.at/de/artists.html" />
+  </url>
+
+  <!-- CONTACT -->
+  <url>
+    <loc>https://www.ahornevents.at/en/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ahornevents.at/en/contact.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.ahornevents.at/de/contact.html" />
+  </url>
+
+  <!-- LEGAL NOTICE (EN ↔ DE Impressum) -->
+  <url>
+    <loc>https://www.ahornevents.at/en/legal-notice.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ahornevents.at/en/legal-notice.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.ahornevents.at/de/impressum.html" />
+  </url>
+
+  <url>
+    <loc>https://www.ahornevents.at/de/impressum.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.ahornevents.at/de/impressum.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ahornevents.at/en/legal-notice.html" />
+  </url>
+
+  <!-- PRIVACY POLICY (EN ↔ DE Datenschutz) -->
+  <url>
+    <loc>https://www.ahornevents.at/en/privacy-policy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ahornevents.at/en/privacy-policy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.ahornevents.at/de/datenschutz.html" />
+  </url>
+
+  <url>
+    <loc>https://www.ahornevents.at/de/datenschutz.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.ahornevents.at/de/datenschutz.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ahornevents.at/en/privacy-policy.html" />
+  </url>
+
 </urlset>
