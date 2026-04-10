@@ -3,9 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Künstler | Musik, Entertainment &amp; Sport | Ahornevents</title>
+
+    <title>Künstler | Ahornevents</title>
     <meta
-      content="Entdecken Sie Künstler aus Musik, Entertainment und Sport für Firmenevents, Galaabende und private Veranstaltungen mit Ahornevents."
+      content="Entdecken Sie ausgewählte Künstler aus Musik, Entertainment und Sport für Firmenevents, Galaabende und private Veranstaltungen."
       name="description"
     />
     <meta content="index, follow" name="robots" />
@@ -28,10 +29,7 @@
     />
 
     <meta content="website" property="og:type" />
-    <meta
-      content="Künstler | Musik, Entertainment &amp; Sport | Ahornevents"
-      property="og:title"
-    />
+    <meta content="Künstler | Ahornevents" property="og:title" />
     <meta
       content="Entdecken Sie ausgewählte Künstler aus Musik, Entertainment und Sport für besondere Events und Live-Erlebnisse."
       property="og:description"
@@ -46,6 +44,7 @@
     />
 
     <link href="../css/artists.css" rel="stylesheet" />
+    <link href="../css/style.css" rel="stylesheet" />
 
     <script src="../js/head.js"></script>
     <script>
@@ -65,73 +64,490 @@
     <div id="site-header"></div>
 
     <main class="site-main">
-
-      <!-- INTRO -->
+      <!-- HERO -->
       <section class="site-section">
-        <div class="section-header reveal">
+        <div class="section-header section-header--stacked reveal">
           <div>
             <span class="section-eyebrow">Künstler</span>
-            <h2>Ausgewählte Künstler für jedes Event</h2>
+            <h1>Ausgewählte Künstler für besondere Events.</h1>
           </div>
-          <p class="section-intro">
-            Unsere Künstlerauswahl verbindet Musik, Entertainment und Sport –
-            abgestimmt auf Firmenevents, Galaabende, private Feiern und
-            besondere Live-Erlebnisse.
-          </p>
         </div>
 
-         <div class="artist-categories reveal">
-  <a href="#music" class="btn btn--primary">Music</a>
-  <a href="#entertainment" class="btn btn--primary">Entertainment</a>
-  <a href="#sport" class="btn btn--primary">Sport</a>
-</div>
+        <div class="artist-categories reveal">
+          <a href="#music" class="btn btn--primary">Music</a>
+          <a href="#entertainment" class="btn btn--primary">Entertainment</a>
+           <a href="#sport" class="btn btn--primary">Sport</a>
+        </div>
       </section>
 
       <!-- MUSIC -->
       <section class="site-section" id="music">
-        <div class="section-header reveal">
+        <div class="section-header section-header--stacked reveal">
           <div>
-            <h2>Musik</h2>
+            <span class="section-eyebrow">Musik</span>
+            <h2>Künstler mit Stimme, Präsenz und Atmosphäre.</h2>
           </div>
+
           <p class="section-intro">
-            Live-Gesang, Bands, Schlager, Soul, Disco und hochwertige
-            Event-Unterhaltung für stilvolle und unvergessliche Anlässe.
+            Von Soul, Disco und Pop bis zu Austropop, Schlager und Live-Bands:
+            Diese Künstler stehen für musikalische Qualität, Wiedererkennung
+            und eine klare Verbindung zum Publikum.
           </p>
         </div>
 
-        <!-- Deine bestehenden Cards bleiben exakt gleich -->
-        <!-- (WICHTIG: NICHT ersetzen – nur Überschrift + Intro sind angepasst) -->
+        <div class="services-grid">
+          <article class="service-card reveal">
+            <div class="service-card__media">
+              <a
+                aria-label="Greg Bannis Video abspielen"
+                class="js-video-link service-card__video-trigger"
+                data-video="https://www.youtube.com/embed/8TnFp3KJgEI"
+                href="#"
+              >
+                <img
+                  alt="Greg Bannis"
+                  class="service-card__image"
+                  src="../images/artists/Greg Bannis5.jpg"
+                />
+                <span class="service-card__play">▶</span>
+              </a>
+            </div>
+            <div class="service-card__body">
+              <h3>Greg Bannis</h3>
+              <span class="service-card__role">Soul • Disco • Pop</span>
+              <p class="service-card__excerpt">
+                Ehemaliger Frontmann von Hot Chocolate mit zeitlosen Soul-,
+                Disco- und Popklassikern.
+              </p>
+              <div class="service-card__more">
+                <p>
+                  Internationaler Live-Entertainer mit unverwechselbarer
+                  Bühnenpräsenz, ikonischem Repertoire und starker Wirkung bei
+                  Galaabenden, Corporate Events und exklusiven Feiern.
+                </p>
+              </div>
+              <div class="service-card__actions">
+                <button class="service-card__toggle" type="button">Entdecken</button>
+                <a class="service-card__link" href="artists/greg-bannis.html">Mehr erfahren</a>
+              </div>
+            </div>
+          </article>
 
+          <article class="service-card reveal">
+            <div class="service-card__media">
+              <a
+                aria-label="Carlos López Video abspielen"
+                class="js-video-link service-card__video-trigger"
+                data-video="https://www.youtube.com/embed/VIDEO_ID_1"
+                href="#"
+              >
+                <img
+                  alt="Carlos López"
+                  class="service-card__image"
+                  src="../images/artists/carlos-lopez/carlos-lopez-main.jpg"
+                />
+                <span class="service-card__play">▶</span>
+              </a>
+            </div>
+            <div class="service-card__body">
+              <h3>Carlos López</h3>
+              <span class="service-card__role">Evergreens • Crossover • Live Classics</span>
+              <p class="service-card__excerpt">
+                Spanischer Live-Entertainer mit Charisma, Stimmkraft und
+                klassischer Bühnenwirkung.
+              </p>
+              <div class="service-card__more">
+                <p>
+                  Elegante und publikumsnahe Live-Unterhaltung für Galas,
+                  festliche Anlässe und Formate mit stilvollem Charakter.
+                </p>
+              </div>
+              <div class="service-card__actions">
+                <button class="service-card__toggle" type="button">Entdecken</button>
+                <a class="service-card__link" href="artists/carlos-lopez.html">Mehr erfahren</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-card__media">
+              <a
+                aria-label="Frankie Fortyn Video abspielen"
+                class="js-video-link service-card__video-trigger"
+                data-video="https://www.youtube.com/embed/gW1KW3FXzUQ"
+                href="#"
+              >
+                <img
+                  alt="Frankie Fortyn"
+                  class="service-card__image"
+                  src="../images/artists/frankie-fortyn/frankie-fortyn-main.jpg"
+                />
+                <span class="service-card__play">▶</span>
+              </a>
+            </div>
+            <div class="service-card__body">
+              <h3>Frankie Fortyn</h3>
+              <span class="service-card__role">Country • Rock’n’Roll • Oldies</span>
+              <p class="service-card__excerpt">
+                Vielseitige Live-Unterhaltung mit Country-Flair, Rock’n’Roll und
+                klassischen Oldies.
+              </p>
+              <div class="service-card__more">
+                <p>
+                  Flexible Solo- und Bandformate für Themenabende, private
+                  Feiern, Corporate Events und publikumsnahe Live-Auftritte.
+                </p>
+              </div>
+              <div class="service-card__actions">
+                <button class="service-card__toggle" type="button">Entdecken</button>
+                <a class="service-card__link" href="artists/frankie-fortyn.html">Mehr erfahren</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-card__media">
+              <a
+                aria-label="Herbert Frei Video abspielen"
+                class="js-video-link service-card__video-trigger"
+                data-video="https://www.youtube.com/embed/YOUR_VIDEO_ID_1"
+                href="#"
+              >
+                <img
+                  alt="Herbert Frei"
+                  class="service-card__image"
+                  src="../images/artists/herbert-frei/herbert-frei-main.jpg"
+                />
+                <span class="service-card__play">▶</span>
+              </a>
+            </div>
+            <div class="service-card__body">
+              <h3>Herbert Frei</h3>
+              <span class="service-card__role">Austropop • Schlager</span>
+              <p class="service-card__excerpt">
+                Österreichischer Sänger und Entertainer mit warmer Live-Energie
+                und breiter Publikumswirkung.
+              </p>
+              <div class="service-card__more">
+                <p>
+                  Stilvoller Live-Act für Galas, Hochzeiten und Corporate
+                  Events, mit Wiedererkennungswert und authentischem Charakter.
+                </p>
+              </div>
+              <div class="service-card__actions">
+                <button class="service-card__toggle" type="button">Entdecken</button>
+                <a class="service-card__link" href="artists/herbert-frei.html">Mehr erfahren</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-card__media">
+              <a
+                aria-label="Jazz Gitti Video abspielen"
+                class="js-video-link service-card__video-trigger"
+                data-video="https://www.youtube.com/embed/VIDEO_ID_1"
+                href="#"
+              >
+                <img
+                  alt="Jazz Gitti"
+                  class="service-card__image"
+                  src="../images/artists/jazz-gitti/jazz-gitti-main.jpg"
+                />
+                <span class="service-card__play">▶</span>
+              </a>
+            </div>
+            <div class="service-card__body">
+              <h3>Jazz Gitti</h3>
+              <span class="service-card__role">Schlager • Austrian Live Show</span>
+              <p class="service-card__excerpt">
+                Eine der bekanntesten österreichischen Entertainerinnen mit
+                Kultstatus, Humor und Live-Energie.
+              </p>
+              <div class="service-card__more">
+                <p>
+                  Wiener Original mit starker Publikumsnähe für Galas,
+                  Firmenevents und kulturelle Veranstaltungen.
+                </p>
+              </div>
+              <div class="service-card__actions">
+                <button class="service-card__toggle" type="button">Entdecken</button>
+                <a class="service-card__link" href="artists/jazz-gitti.html">Mehr erfahren</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-card__media">
+              <a
+                aria-label="Peter Kent Video abspielen"
+                class="js-video-link service-card__video-trigger"
+                data-video="https://www.youtube.com/embed/VIDEO_ID_1"
+                href="#"
+              >
+                <img
+                  alt="Peter Kent"
+                  class="service-card__image"
+                  src="../images/artists/peter-kent/peter-kent-main.jpg"
+                />
+                <span class="service-card__play">▶</span>
+              </a>
+            </div>
+            <div class="service-card__body">
+              <h3>Peter Kent</h3>
+              <span class="service-card__role">80s Pop • Retro • Romantic Classics</span>
+              <p class="service-card__excerpt">
+                80er-Pop-Nostalgie mit hohem Wiedererkennungswert und
+                zeitlosen Klassikern.
+              </p>
+              <div class="service-card__more">
+                <p>
+                  Stilvolle Retro-Pop-Erfahrung für Galaabende, festliche
+                  Anlässe und ausgewählte Live-Formate.
+                </p>
+              </div>
+              <div class="service-card__actions">
+                <button class="service-card__toggle" type="button">Entdecken</button>
+                <a class="service-card__link" href="artists/peter-kent.html">Mehr erfahren</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-card__media">
+              <a
+                aria-label="Tip Top Band Video abspielen"
+                class="js-video-link service-card__video-trigger"
+                data-video="https://www.youtube.com/embed/VIDEO_ID_1"
+                href="#"
+              >
+                <img
+                  alt="Tip Top Band"
+                  class="service-card__image"
+                  src="../images/artists/tip-top-band/tip-top-band-main.jpg"
+                />
+                <span class="service-card__play">▶</span>
+              </a>
+            </div>
+            <div class="service-card__body">
+              <h3>Tip Top Band</h3>
+              <span class="service-card__role">Pop • Party • Dance</span>
+              <p class="service-card__excerpt">
+                Hochwertige Live-Unterhaltung mit Band, DJ-Support und
+                Eventproduktion.
+              </p>
+              <div class="service-card__more">
+                <p>
+                  Vielseitige Eventband mit Atmosphäre, Energie und technischer
+                  Qualität für Hochzeiten, Galas und Firmenevents.
+                </p>
+              </div>
+              <div class="service-card__actions">
+                <button class="service-card__toggle" type="button">Entdecken</button>
+                <a class="service-card__link" href="artists/tip-top-band.html">Mehr erfahren</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-card__media">
+              <a
+                aria-label="Von Gründorf Video abspielen"
+                class="js-video-link service-card__video-trigger"
+                data-video="https://www.youtube.com/embed/sPqzYufRem0"
+                href="#"
+              >
+                <img
+                  alt="Von Gründorf"
+                  class="service-card__image"
+                  src="../images/artists/von-gruendorf/von-gruendorf-main.jpg"
+                />
+                <span class="service-card__play">▶</span>
+              </a>
+            </div>
+            <div class="service-card__body">
+              <h3>Von Gründorf</h3>
+              <span class="service-card__role">Schlager • Entertainment • Moderation</span>
+              <p class="service-card__excerpt">
+                Österreichischer Schlager-Sänger, Entertainer und Moderator mit
+                Charme und Publikumsnähe.
+              </p>
+              <div class="service-card__more">
+                <p>
+                  Musik, Humor und stilvolle Bühnenkommunikation in einem
+                  warmen, publikumsnahen Live-Format.
+                </p>
+              </div>
+              <div class="service-card__actions">
+                <button class="service-card__toggle" type="button">Entdecken</button>
+                <a class="service-card__link" href="artists/von-gruendorf.html">Mehr erfahren</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-card__media">
+              <a
+                aria-label="Wolfgang Beer Video abspielen"
+                class="js-video-link service-card__video-trigger"
+                data-video="https://www.youtube.com/embed/zP5jwWGn1s0"
+                href="#"
+              >
+                <img
+                  alt="Wolfgang Beer"
+                  class="service-card__image"
+                  src="../images/artists/wolfgang-beer/wolfgang-beer-main.jpg"
+                />
+                <span class="service-card__play">▶</span>
+              </a>
+            </div>
+            <div class="service-card__body">
+              <h3>Wolfgang Beer</h3>
+              <span class="service-card__role">Schlager • Oldies • Austropop</span>
+              <p class="service-card__excerpt">
+                Österreichischer Entertainer mit langjähriger Bühnenerfahrung und
+                breitem Repertoire.
+              </p>
+              <div class="service-card__more">
+                <p>
+                  Vielseitiger Live-Act mit starker Publikumsverbindung,
+                  österreichischem Charakter und breiter Einsetzbarkeit.
+                </p>
+              </div>
+              <div class="service-card__actions">
+                <button class="service-card__toggle" type="button">Entdecken</button>
+                <a class="service-card__link" href="artists/wolfgang-beer.html">Mehr erfahren</a>
+              </div>
+            </div>
+          </article>
+        </div>
       </section>
 
       <!-- ENTERTAINMENT -->
       <section class="site-section" id="entertainment">
-        <div class="section-header reveal">
+        <div class="section-header section-header--stacked reveal">
           <div>
-            <h2>Entertainment</h2>
+            <span class="section-eyebrow">Entertainment</span>
+            <h2>Showformate mit Präsenz und Wirkung.</h2>
           </div>
+
           <p class="section-intro">
-            Stilvolle Showformate, starke Bühnenpräsenz und visuell eindrucksvolle
-            Auftritte für besondere Events.
+            Entertainment-Acts, die durch visuelle Kraft, Bühnenwirkung und
+            eine klare ästhetische Linie besondere Momente schaffen.
           </p>
         </div>
 
-        <!-- bestehende Cards bleiben -->
+        <div class="services-grid">
+          <article class="service-card reveal">
+            <div class="service-card__media">
+              <a
+                aria-label="Wendy Night Video abspielen"
+                class="js-video-link service-card__video-trigger"
+                data-video="https://www.youtube.com/embed/VIDEO_ID_1"
+                href="#"
+              >
+                <img
+                  alt="Wendy Night"
+                  class="service-card__image"
+                  src="../images/artists/wendy-night/wendy-night-main.jpg"
+                />
+                <span class="service-card__play">▶</span>
+              </a>
+            </div>
+            <div class="service-card__body">
+              <h3>Wendy Night</h3>
+              <span class="service-card__role">Burlesque • Cabaret • Showdance</span>
+              <p class="service-card__excerpt">
+                Elegante Burlesque-Performance mit Glamour, Sinnlichkeit und
+                starker Bühnenpräsenz.
+              </p>
+              <div class="service-card__more">
+                <p>
+                  Stilvoller Show-Act für Galas, Themenabende, Corporate Events
+                  und exklusive Feiern mit hoher visueller Wirkung.
+                </p>
+              </div>
+              <div class="service-card__actions">
+                <button class="service-card__toggle" type="button">Entdecken</button>
+                <a class="service-card__link" href="artists/wendy-night.html">Mehr erfahren</a>
+              </div>
+            </div>
+          </article>
+        </div>
       </section>
 
       <!-- SPORT -->
       <section class="site-section" id="sport">
-        <div class="section-header reveal">
+        <div class="section-header section-header--stacked reveal">
           <div>
-            <h2>Sport</h2>
+            <span class="section-eyebrow">Sport</span>
+            <h2>Persönlichkeiten mit Erfahrung und Glaubwürdigkeit.</h2>
           </div>
+
           <p class="section-intro">
-            Sportpersönlichkeiten mit Erfahrung, Authentizität und
-            hoher Relevanz für Business-Events und Talks.
+            Sportpersönlichkeiten, die durch internationale Erfahrung,
+            Authentizität und Präsenz einen besonderen Mehrwert für Business-
+            und Gesprächsformate bieten.
           </p>
         </div>
 
-        <!-- bestehende Cards bleiben -->
+        <div class="services-grid">
+          <article class="service-card reveal">
+            <div class="service-card__media">
+              <img
+                alt="Andreas Ivanschitz"
+                class="service-card__image"
+                src="../images/artists/andreas-ivanschitz/andreas-ivanschitz-main.jpg"
+              />
+            </div>
+            <div class="service-card__body">
+              <h3>Andreas Ivanschitz</h3>
+              <span class="service-card__role">Former Austrian International</span>
+              <p class="service-card__excerpt">
+                Internationale Fußballpersönlichkeit mit Führungsstärke,
+                Kreativität und Erfahrung auf höchstem Niveau.
+              </p>
+              <div class="service-card__more">
+                <p>
+                  Respektierter ehemaliger Spielmacher für Business-Events,
+                  Talks, Interviews und ausgewählte Gastauftritte.
+                </p>
+              </div>
+              <div class="service-card__actions">
+                <button class="service-card__toggle" type="button">Entdecken</button>
+                <a class="service-card__link" href="artists/andreas-ivanschitz.html">Mehr erfahren</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-card__media">
+              <img
+                alt="Stephan Marasek"
+                class="service-card__image"
+                src="../images/artists/stephan-marasek/stephan-marasek-main.jpg"
+              />
+            </div>
+            <div class="service-card__body">
+              <h3>Stephan Marasek</h3>
+              <span class="service-card__role">Former Austrian International</span>
+              <p class="service-card__excerpt">
+                Sportpersönlichkeit mit Glaubwürdigkeit, Disziplin und echtem
+                Einblick in den Spitzenfußball.
+              </p>
+              <div class="service-card__more">
+                <p>
+                  Passend für Corporate Events, Sport-Talks und Formate rund um
+                  Teamarbeit, Mentalität und Leistungskultur.
+                </p>
+              </div>
+              <div class="service-card__actions">
+                <button class="service-card__toggle" type="button">Entdecken</button>
+                <a class="service-card__link" href="artists/stephan-marasek.html">Mehr erfahren</a>
+              </div>
+            </div>
+          </article>
+        </div>
       </section>
 
       <!-- CTA -->
@@ -139,22 +555,21 @@
         <article class="content-card reveal">
           <h3>Sie suchen den passenden Künstler?</h3>
           <p>
-            Wir unterstützen Sie gerne dabei, den richtigen Act für Ihr Event zu
-            finden – abgestimmt auf Publikum, Konzept und Atmosphäre.
+            Wir unterstützen Sie gerne dabei, den richtigen Act für Ihr Event
+            zu finden – abgestimmt auf Publikum, Rahmen und Atmosphäre.
           </p>
-          <a class="btn btn--primary" href="kontakt.html">Kontakt aufnehmen</a>
+          <a class="btn btn--primary" href="contact.html">Kontakt aufnehmen</a>
         </article>
       </section>
-
     </main>
 
     <div id="site-footer"></div>
 
-    <!-- COOKIE -->
     <div id="cookie-banner" class="cookie-banner" hidden role="dialog">
       <div class="cookie-banner__content">
         <p>
-          Wir verwenden Cookies, um Ihre Erfahrung zu verbessern.
+          Wir verwenden Cookies, um Ihr Erlebnis zu verbessern. Sie können
+          nicht notwendige Cookies akzeptieren oder ablehnen.
           <a href="datenschutz.html">Mehr erfahren</a>
         </p>
 
@@ -166,6 +581,39 @@
           <button id="cookie-reject" class="btn btn--ghost" type="button">
             Ablehnen
           </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-modal" id="videoModal">
+      <div class="video-modal__overlay"></div>
+      <div class="video-modal__content">
+        <button
+          aria-label="Close video"
+          class="video-modal__close"
+          id="videoClose"
+          type="button"
+        >
+          ✕
+        </button>
+        <div class="video-modal__iframe-wrapper">
+          <iframe
+            allow="
+              accelerometer;
+              autoplay;
+              clipboard-write;
+              encrypted-media;
+              gyroscope;
+              picture-in-picture;
+              web-share;
+            "
+            allowfullscreen=""
+            frameborder="0"
+            id="videoFrame"
+            referrerpolicy="strict-origin-when-cross-origin"
+            src=""
+            title="YouTube video player"
+          ></iframe>
         </div>
       </div>
     </div>

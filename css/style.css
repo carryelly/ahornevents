@@ -292,6 +292,7 @@ p {
 ========================================================= */
 
 .site-nav {
+  position: sticky;
   margin-left: auto;
   display: flex;
   align-items: center;
